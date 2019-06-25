@@ -16,7 +16,7 @@ public class Teste {
 				ECryptographyMode.DECRYPTION, 1);
 
 		// apt url e token omitidos por questoes de seguranca
-		String url = "https://echo.200please.com";
+		String url = "http://echo.200please.com";
 		String token = "";
 		String encryptedMessage = "zpv xbou ju jo pof mjof? epft ju ibwf up gju jo 80 dpmvnot? mbssz xbmm";
 		String decryptedMessage = converter.decrypt(encryptedMessage);
